@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browserName" value="Edge"/>
+  <parameter name="url" value="https://www.esteelauder.com/"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="PracticeTestNG.ElcTestngDemo">
+        <methods>
+          <include name="enterMsg"/>
+          <include name="backToHome"/>
+          <include name="clickOnEmojiBtn"/>
+          <include name="plusIcon"/>
+          <include name="addToBag"/>
+          <include name="viewMyBag"/>
+          <include name="sendMsg"/>
+          <include name="initialiseBrowser"/>
+          <include name="trackOrder"/>
+          <include name="removeItem"/>
+          <include name="sndEmoji"/>
+          <include name="clickOnLiveChat1"/>
+          <include name="inquiryMsg"/>
+          <include name="slctEmoji"/>
+          <include name="msgVerification"/>
+        </methods>
+      </class> <!-- PracticeTestNG.ElcTestngDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
