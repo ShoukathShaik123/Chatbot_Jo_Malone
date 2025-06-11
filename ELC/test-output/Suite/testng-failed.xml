@@ -5,25 +5,11 @@
   <parameter name="url" value="https://www.esteelauder.com/"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="PracticeTestNG.ElcTestngDemo">
+      <class name="Package2.DataProviderClass">
         <methods>
-          <include name="enterMsg"/>
-          <include name="backToHome"/>
-          <include name="clickOnEmojiBtn"/>
-          <include name="plusIcon"/>
-          <include name="addToBag"/>
-          <include name="viewMyBag"/>
-          <include name="sendMsg"/>
-          <include name="initialiseBrowser"/>
-          <include name="trackOrder"/>
-          <include name="removeItem"/>
-          <include name="sndEmoji"/>
-          <include name="clickOnLiveChat1"/>
-          <include name="inquiryMsg"/>
-          <include name="slctEmoji"/>
-          <include name="msgVerification"/>
+          <include name="runTest" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- PracticeTestNG.ElcTestngDemo -->
+      </class> <!-- Package2.DataProviderClass -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
